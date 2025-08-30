@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Code-folio</title>
+        <link href="./css/custom.css" rel="stylesheet">
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Code-folio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Accomplishments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">My Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact Me</a>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="toggleTheme" switch>
+            <label class="form-check-label" for="toggleTheme"> Dark Mode </label>
+        </div>
+        <script src="./toggleTheme.js"></script>
+        <div class="container-fluid text-center">
+            <h2>Color Palette</h2>
+            <div class="row">
+                <div class="col text-bg-primary p-3">Primary</div>
+                <div class="col text-bg-secondary p-3">Secondary</div>
+                <div class="col text-bg-success p-3">Success</div>
+                <div class="col text-bg-danger p-3">Danger</div>
+                <div class="col text-bg-warning p-3">Warning</div>
+                <div class="col text-bg-info p-3">Info</div>
+                <div class="col text-bg-light p-3">Light</div>
+                <div class="col text-bg-dark p-3">Dark</div>
+            </div>
+            <caption class="row"> Color Palette by <a
+                    href="https://copilot.microsoft.com/shares/pages/2cdXrPqNNxV54DEsCpuDR">https://copilot.microsoft.com/</a>
+            </caption>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award-fill"
+            viewBox="0 0 16 16">
+            <path
+                d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link"
+            viewBox="0 0 16 16">
+            <path
+                d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9q-.13 0-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+            <path
+                d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4 4 0 0 1-.82 1H12a3 3 0 1 0 0-6z" />
+        </svg>
+        icons from <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a> <br>
+        <p> ABCDEFGHIJKLMNOPQRSTUVWXYZ <br> abcdefghijklmnopqrstuvwxyz <br> 0123456789 <br>
+        </p> font from <a
+            href="https://fonts.google.com/specimen/Google+Sans+Code">https://fonts.google.com/specimen/Google+Sans+Code</a>
+    </body>
+</html>
