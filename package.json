@@ -14,7 +14,7 @@
     "author": "Ryan Posey",
     "type": "commonjs",
     "scripts": {
-        "start": "sass ./scss/custom.scss ./css/custom.css",
+        "build": "sass ./scss/custom.scss ./css/custom.css",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
